@@ -2,8 +2,9 @@
   "name": "raydium-swap-demo",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "tsx src/index.ts"
+    "start": "dotenvx run -- tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "@raydium-io/raydium-sdk-v2": "^0.1.118-alpha",
     "@solana/web3.js": "^1.98.0",
     "axios": "^1.8.4",
+    "bn.js": "^5.2.1",
     "bs58": "^6.0.0",
     "decimal.js": "^10.5.0",
     "typescript": "^5.8.2"
